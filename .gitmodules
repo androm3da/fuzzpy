@@ -1,0 +1,12 @@
+[submodule "clang"]
+	path = llvm_src/clang
+	url = http://llvm.org/git/clang
+[submodule "cpython"]
+	path = cpython
+	url = https://github.com/python/cpython
+[submodule "llvm"]
+	path = llvm_src/llvm
+	url = http://llvm.org/git/llvm.git
+[submodule "llvm_src/compiler-rt"]
+	path = llvm_src/compiler-rt
+	url = http://llvm.org/git/compiler-rt.git
