@@ -12,13 +12,14 @@ CLANG=${INSTALL_PREFIX}/bin/clang
 SANITIZE_OPTS="-fsanitize=address"
 SANITIZE_COV_OPTS="-fsanitize-coverage=bb,indirect-calls,8bit-counters"
 DEBUG_OPTS="-g -fno-omit-frame-pointer"
-PYCFLAGS="${SANITIZE_OPTS} ${SANITIZE_COV_OPTS} ${DEBUG_OPTS}"
 
-#TODO: have a better way to control this behavior:
-PYVER=3
-INSTALL_PREFIX=/opt/fuzzpy
+INSTALL_PREFIX=${PWD}/fuzzpy_install/
 LLVM_SRC=${PWD}/llvm_src/
 LLVM_BUILD=${PWD}/llvm_build/
+TEST_SRC=${PWD}/tests/
+
+CPY_SRC=${PWD}/cpython/
+CPY_BUILD=${CPY_SRC}
 
 build_clang()
 {
@@ -35,12 +36,15 @@ build_clang()
         ${LLVM_SRC}/llvm
 
     make -j2
+    make install
     cd -
 }
 
 build_cpython()
 {
+    cd ${CPY_BUILD}
 
+    PYCFLAGS="${SANITIZE_OPTS} ${SANITIZE_COV_OPTS} ${DEBUG_OPTS}"
     CC=${CLANG} \
        CXX=${CLANG}++ \
        CFLAGS="${PYCFLAGS}" \
@@ -49,13 +53,13 @@ build_cpython()
        ./configure --with-pydebug --disable-ipv6 --prefix=${INSTALL_PREFIX}
 
     make -j2
-    sudo sh -c 'ASAN_OPTION=detect_leaks=0 make install'
+    ASAN_OPTION=detect_leaks=0 make install
 }
 
 build_tests()
 {
-    cd ${TEST_SRC}
-    make PYVER=${PYVER} CC=${CLANG} CXX=${CLANG}++
+    cd ${TEST_SRC}/build/
+    make INSTALL_PREFIX=${INSTALL_PREFIX} CC=${CLANG} CXX=${CLANG}++ SAN=${SANITIZE_OPTS}
 }
 
 build_clang
