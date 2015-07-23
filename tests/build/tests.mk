@@ -1,4 +1,7 @@
 
+###################
+# libFuzzer
+###################
 VPATH+=$(LLVM_SRC)/llvm/lib/Fuzzer/
 FUZZ_OBJS= \
     FuzzerCrossOver.o \
@@ -14,9 +17,8 @@ FUZZ_OBJS= \
     FuzzerLoop.o \
     $()
 
-EXEC_OBJS= \
-    $(FUZZ_OBJS) \
-    tester.o \
+EXEC_OBJS+= \
+    $(FUZZ_OBJS) 
     $()
 
 ###################
@@ -25,8 +27,9 @@ EXEC_OBJS= \
 COMPILE_FLAGS+=-I../../wrapper/
 VPATH+=../../wrapper
 EXEC_OBJS+= \
-            pywrap.o \
-            $()
+    pywrap.o \
+    tester.o \
+    $()
 
 
 testbin: testplist testjson testxmlrpc testbz2
