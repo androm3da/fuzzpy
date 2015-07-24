@@ -26,8 +26,6 @@ build_clang()
     cd ${LLVM_BUILD}
 
     cmake  \
-        -DCMAKE_C_COMPILER=clang \
-        -DCMAKE_CXX_COMPILER=clang++ \
         -DCMAKE_BUILD_TYPE=Release \
         -DLLVM_TARGETS_TO_BUILD=X86 \
         -G "Unix Makefiles" \
