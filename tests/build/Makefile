@@ -11,7 +11,7 @@ SAN_FLAGS=$(SAN) $(SANCOV)
 
 COMPILE_FLAGS+=-g -fno-omit-frame-pointer -std=c++11
 
-PKG_CONFIG_ARGS=$(INSTALL_PREFIX)/lib/pkgconfig/python.pc python
+PKG_CONFIG_ARGS=$(INSTALL_PREFIX)/lib/pkgconfig/python$(PYVER).pc python$(PYVER)
 LDLIBS=-lstdc++ -lutil
 LDLIBS+=-Xlinker -export-dynamic $(shell pkg-config --libs $(PKG_CONFIG_ARGS))
 COMPILE_FLAGS+=$(shell pkg-config --cflags $(PKG_CONFIG_ARGS))

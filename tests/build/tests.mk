@@ -44,4 +44,4 @@ vpath %.py ../testplist/:../testjson:../testbz2/:../testxmlrpc/
 
 
 clean::
-	$(RM) testplist[,.o} testjson[,.o} testxmlrpc[,.o} testbz2[,.o}
+	$(RM) testplist{,.o} testjson{,.o} testxmlrpc{,.o} testbz2{,.o}

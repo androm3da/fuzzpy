@@ -6,6 +6,8 @@ set -o pipefail
 PROCS=$(grep -c ^processor /proc/cpuinfo)
 [[ ${PROCS} -gt 3 ]] && MAKEJOBS=$((${PROCS} - 2)) || MAKEJOBS=2
 
+PYVER=3
+
 # TODO: follow up w/CPython and/or llvm team on 'leaks' (or 
 #    create suppressions)
 ASAN_OPTIONS=detect_leaks=0
@@ -59,11 +61,12 @@ build_cpython()
        CXX=${CLANG}++ \
        CFLAGS="${PYCFLAGS}" \
        CXXFLAGS="${PYCFLAGS}" \
-       LDFLAGS="${SANITIZE_FLAGS}" \
+       LDFLAGS="${SANITIZE_OPTS}" \
        ./configure --with-pydebug --disable-ipv6 --prefix=${INSTALL_PREFIX}
 
     make -j${MAKEJOBS}
     ASAN_OPTION=detect_leaks=0 make install
+    pushd ${INSTALL_PREFIX}/lib/pkgconfig ; ln -sf python${PYVER}.pc python.pc ; popd
     cd -
 }
 
@@ -74,6 +77,7 @@ build_tests()
          CC=${CLANG} \
          CXX=${CLANG}++ \
          SAN=${SANITIZE_OPTS} \
+         PYVER=${PYVER} \
          LLVM_SRC=${LLVM_SRC}
     cd -
 }
