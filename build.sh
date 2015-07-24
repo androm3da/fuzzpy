@@ -1,9 +1,14 @@
 #!/bin/sh
 
+set -e
+set -o pipefail
+
 # TODO: follow up w/CPython and/or llvm team on 'leaks' (or 
 #    create suppressions)
 ASAN_OPTIONS=detect_leaks=0
 export ASAN_OPTIONS
+
+INSTALL_PREFIX=${PWD}/fuzzpy_install/
 
 export PATH=${INSTALL_PREFIX}/bin:$PATH
 CLANG=${INSTALL_PREFIX}/bin/clang
@@ -13,7 +18,6 @@ SANITIZE_OPTS="-fsanitize=address"
 SANITIZE_COV_OPTS="-fsanitize-coverage=bb,indirect-calls,8bit-counters"
 DEBUG_OPTS="-g -fno-omit-frame-pointer"
 
-INSTALL_PREFIX=${PWD}/fuzzpy_install/
 LLVM_SRC=${PWD}/llvm_src/
 LLVM_BUILD=${PWD}/llvm_build/
 TEST_SRC=${PWD}/tests/
