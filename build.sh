@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 
 set -e
 set -o pipefail
@@ -61,7 +61,7 @@ build_cpython()
 build_tests()
 {
     cd ${TEST_SRC}/build/
-    make INSTALL_PREFIX=${INSTALL_PREFIX} CC=${CLANG} CXX=${CLANG}++ SAN=${SANITIZE_OPTS}
+    make INSTALL_PREFIX=${INSTALL_PREFIX} CC=${CLANG} CXX=${CLANG}++ SAN=${SANITIZE_OPTS} LLVM_SRC=${LLVM_SRC}
 }
 
 build_clang
