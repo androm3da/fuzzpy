@@ -3,6 +3,9 @@
 set -e
 set -o pipefail
 
+PROCS=$(grep -c ^processor /proc/cpuinfo)
+[[ ${PROCS} -gt 3 ]] && MAKEJOBS=$((${PROCS} - 2)) || MAKEJOBS=2
+
 # TODO: follow up w/CPython and/or llvm team on 'leaks' (or 
 #    create suppressions)
 ASAN_OPTIONS=detect_leaks=0
@@ -19,7 +22,7 @@ SANITIZE_COV_OPTS="-fsanitize-coverage=bb,indirect-calls,8bit-counters"
 DEBUG_OPTS="-g -fno-omit-frame-pointer"
 
 LLVM_SRC=${PWD}/llvm_src/
-LLVM_BUILD=${PWD}/llvm_build/
+LLVM_BUILD=${LLVM_SRC}/build/
 TEST_SRC=${PWD}/tests/
 
 CPY_SRC=${PWD}/cpython/
@@ -27,6 +30,11 @@ CPY_BUILD=${CPY_SRC}
 
 build_clang()
 {
+    cd ${LLVM_SRC}/llvm/tools
+    ln -sf ../../clang
+    cd ${LLVM_SRC}/llvm/projects
+    ln -sf ../../compiler-rt
+    mkdir -p ${LLVM_BUILD}
     cd ${LLVM_BUILD}
 
     cmake  \
@@ -37,7 +45,7 @@ build_clang()
         -DCMAKE_INSTALL_PREFIX=${INSTALL_PREFIX} \
         ${LLVM_SRC}/llvm
 
-    make -j2
+    make -j${MAKEJOBS}
     make install
     cd -
 }
@@ -54,8 +62,9 @@ build_cpython()
        LDFLAGS="${SANITIZE_FLAGS}" \
        ./configure --with-pydebug --disable-ipv6 --prefix=${INSTALL_PREFIX}
 
-    make -j2
+    make -j${MAKEJOBS}
     ASAN_OPTION=detect_leaks=0 make install
+    cd -
 }
 
 build_tests()
@@ -66,6 +75,7 @@ build_tests()
          CXX=${CLANG}++ \
          SAN=${SANITIZE_OPTS} \
          LLVM_SRC=${LLVM_SRC}
+    cd -
 }
 
 build_clang
