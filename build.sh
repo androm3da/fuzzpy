@@ -14,7 +14,7 @@ source ${THIS_DIR}/config.sh
 ASAN_OPTIONS=detect_leaks=0
 export ASAN_OPTIONS
 
-export PATH=${INSTALL_PREFIX}/bin:$PATH
+export PATH=${INSTALL_PREFIX?}/bin:$PATH
 CLANG=${INSTALL_PREFIX}/bin/clang
 
 LLVM_SRC=${PWD}/llvm_src/

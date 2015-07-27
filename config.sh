@@ -1,6 +1,8 @@
 
 THIS_FILE=${BASH_SOURCE}
-THIS_DIR=$(dirname ${THIS_FILE})
+THIS_DIR_=$(dirname ${THIS_FILE})
+# get abs path:
+THIS_DIR=$(readlink -f ${THIS_DIR_})
 INSTALL_PREFIX=${THIS_DIR}/fuzzpy_install/
 
 # for cpython and our fuzzing exec:
