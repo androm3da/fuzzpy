@@ -6,7 +6,7 @@ THIS_DIR=$(readlink -f ${THIS_DIR_})
 INSTALL_PREFIX=${THIS_DIR}/fuzzpy_install/
 
 # for cpython and our fuzzing exec:
-SANITIZE_OPTS="-fsanitize=address -fno-sanitize=leak"
+SANITIZE_OPTS="-fsanitize=address"
 SANITIZE_COV_OPTS="-fsanitize-coverage=bb,indirect-calls,8bit-counters"
 DEBUG_OPTS="-g -fno-omit-frame-pointer"
 

@@ -87,5 +87,5 @@ build_tests()
 
 build_clang
 build_cpython
-test_cpython
+#test_cpython
 build_tests

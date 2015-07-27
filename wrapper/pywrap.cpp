@@ -4,6 +4,7 @@
 #include <sstream>
 #include <string>
 #include "pywrap.h"
+#include <Python.h>
 
 /**
  * Encodes the data as a python hex-escaped string
@@ -25,6 +26,7 @@ static std::string to_hex(const unsigned char *data, unsigned long size)
 #include <vector>
 #include <stdexcept>
 
+
 PyWrap::PyWrap(const char *start, size_t length)
     :prefix(),
      suffix()
@@ -40,6 +42,7 @@ PyWrap::PyWrap(const char *start, size_t length)
     }
     prefix = elems[0];
     suffix = elems[1];
+
 }
 
 std::string PyWrap::get_source(const unsigned char *data, unsigned long size)

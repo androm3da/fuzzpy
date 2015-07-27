@@ -28,6 +28,7 @@ COMPILE_FLAGS+=-I../../wrapper/
 VPATH+=../../wrapper
 EXEC_OBJS+= \
     pywrap.o \
+    pyconsole.o \
     tester.o \
     $()
 
