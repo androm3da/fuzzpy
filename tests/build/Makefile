@@ -3,7 +3,7 @@
 
 all: testbin
 
-include ./tests.mk
+include ./_tests.mk
 
 SANCOV=-fsanitize-coverage=bb,indirect-calls,8bit-counters
 SAN=-fsanitize=address
