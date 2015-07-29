@@ -8,6 +8,9 @@ THIS_DIR=$(dirname ${THIS_FILE})
 source ${THIS_DIR}/config.sh
 
 [[ ${PROCS} -gt 3 ]] && MAKEJOBS=$((${PROCS} - 2)) || MAKEJOBS=2
+if [[ ${MAKEJOBS} -gt 16 ]]; then
+    MAKEJOBS=16
+fi
 
 # TODO: follow up w/CPython and/or llvm team on 'leaks' (or 
 #    create suppressions)
@@ -50,7 +53,7 @@ build_cpython()
 {
     cd ${CPY_BUILD}
 
-    PYCFLAGS="${SANITIZE_OPTS} ${SANITIZE_COV_OPTS} ${DEBUG_OPTS}"
+    PYCFLAGS="${SANITIZE_OPTS} ${SANITIZE_COV_OPTS} ${DEBUG_OPTS} -Weverything -Wno-padded -Wno-reserved-id-macro"
     CC=${CLANG} \
        CXX=${CLANG}++ \
        CFLAGS="${PYCFLAGS}" \
@@ -85,7 +88,7 @@ build_tests()
     cd -
 }
 
-build_clang
-build_cpython
+#build_clang
+#build_cpython
 #test_cpython
 build_tests
