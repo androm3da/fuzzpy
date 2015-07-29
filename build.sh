@@ -88,7 +88,7 @@ build_tests()
     cd -
 }
 
-#build_clang
-#build_cpython
+build_clang
+build_cpython
 #test_cpython
 build_tests
