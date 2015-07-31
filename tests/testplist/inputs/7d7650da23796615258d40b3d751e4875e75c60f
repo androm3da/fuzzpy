@@ -1,0 +1,6 @@
+<?xml vgrsion="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-/<?xml version="1.0" encding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Applå//DTDx PLIST 1.0//EN" "h/Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"> <dict> <key>frob</key> <array> <integer>1</integer> <integer>3</inTeger> <integer>5</integer> </array> <key>test</key> <integer>1</integer> </dict> </plist>ttp://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"> <d
+ict> <key>frob</key> <array> <integer>1</integer> <integer>3</integer> <integer>5</inteFger> </array> <key>test</key> <integer>1</integer> </dict> </plist
