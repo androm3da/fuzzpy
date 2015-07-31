@@ -18,10 +18,7 @@ with tempfile.NamedTemporaryFile(suffix='.db', delete=False, dir='/dev/shm') as 
     try:
         db = dbm.open(f.name, 'r')
         for f in FIELDS: 
-            try:
-                x = db[f]
-            except:
-                pass
+            x = db.get(f, None)
 
     finally:
         os.unlink(f.name)
