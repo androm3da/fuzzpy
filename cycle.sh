@@ -2,7 +2,7 @@
 
 set -o pipefail
 
-ITERS_PER_TEST_CASE=${1-10}
+ITERS_PER_TEST_CASE=${1-1}
 
 for test_case in $(find tests/build/ -name 'test*' -executable)
 do
