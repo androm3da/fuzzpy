@@ -33,17 +33,18 @@ EXEC_OBJS+= \
     $()
 
 
-testbin: testplist testjson testxmlrpc testbz2 testdbm
+testbin: testplist testjson testxmlrpc testbz2 testdbm testpy
 
 testplist: testplist.o $(EXEC_OBJS)
 testjson: testjson.o $(EXEC_OBJS)
 testxmlrpc: testxmlrpc.o $(EXEC_OBJS)
 testbz2: testbz2.o $(EXEC_OBJS)
 testdbm: testdbm.o $(EXEC_OBJS)
+testpy: testpy.o $(EXEC_OBJS)
 
-vpath %.py ../testplist/:../testjson:../testbz2/:../testxmlrpc/:../testdbm/
+vpath %.py ../testplist/:../testjson:../testbz2/:../testxmlrpc/:../testdbm/:../testpy/
 
 
 
 clean::
-	$(RM) testplist{,.o} testjson{,.o} testxmlrpc{,.o} testbz2{,.o}
+	$(RM) testplist{,.o} testjson{,.o} testxmlrpc{,.o} testbz2{,.o} testdbm{,.o} testpy{,.o}
