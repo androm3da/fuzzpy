@@ -24,7 +24,4 @@ finish_up()
 
 trap "finish_up $LINENO" INT TERM ERR
 
-for i in $(seq ${ITERS})
-do
-    ${testbin} -runs=1 -jobs=${JOBS} -use_traces=1 -timeout=10 -max_len=$((16*1024)) -workers=${WORKERS} ${TEST_INPUTS}
-done
+${testbin} -runs=${ITERS} -jobs=${JOBS} -use_traces=1 -timeout=10 -max_len=$((16*1024)) -workers=${WORKERS} ${TEST_INPUTS}
