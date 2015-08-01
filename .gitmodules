@@ -10,3 +10,9 @@
 [submodule "llvm_src/compiler-rt"]
 	path = llvm_src/compiler-rt
 	url = http://llvm.org/git/compiler-rt.git
+[submodule "libcxx"]
+	path = llvm_src/libcxx
+	url = http://llvm.org/git/libcxx.git
+[submodule "llvm_src/libcxxabi"]
+	path = llvm_src/libcxxabi
+	url = http://llvm.org/git/libcxxabi

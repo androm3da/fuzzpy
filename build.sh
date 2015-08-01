@@ -33,6 +33,8 @@ build_clang()
     ln -sf ../../clang
     cd ${LLVM_SRC}/llvm/projects
     ln -sf ../../compiler-rt
+    ln -sf ../../libcxx
+    ln -sf ../../libcxxabi
     mkdir -p ${LLVM_BUILD}
     cd ${LLVM_BUILD}
 

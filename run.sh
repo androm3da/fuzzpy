@@ -12,6 +12,7 @@ source ${THIS_DIR}/config.sh
 [[ ${PROCS} -gt 3 ]] && WORKERS=$((${PROCS} - 1)) || WORKERS=2
 JOBS=$((${WORKERS} / 2 ))
 export PYTHONPATH=${INSTALL_PREFIX}/lib/python3.6
+export LD_LIBRARY_PATH=${INSTALL_PREFIX}/lib/:${LD_LIBRARY_PATH}
 export ASAN_OPTIONS="detect_leaks=0,allocator_may_return_null=1,handle_segv=0,coverage_pcs=1,coverage_dir=${THIS_DIR}/cov/"
 
 mkdir -p ${THIS_DIR}/cov/
