@@ -2,6 +2,8 @@
 
 set -o pipefail
 
+ulimit -v unlimited
+
 testbin=${1?"err specify test"}
 TEST_INPUTS=${2?"err specify test"}
 
