@@ -42,7 +42,6 @@ build_clang()
         -DCMAKE_BUILD_TYPE=Release \
         -DLLVM_TARGETS_TO_BUILD=X86 \
         -G "Unix Makefiles" \
-        -DCMAKE_BUILD_TYPE=type \
         -DCMAKE_INSTALL_PREFIX=${INSTALL_PREFIX} \
         ${LLVM_SRC}/llvm
 
