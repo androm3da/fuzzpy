@@ -18,7 +18,7 @@ FUZZ_OBJS= \
     $()
 
 EXEC_OBJS+= \
-    $(FUZZ_OBJS) 
+    $(FUZZ_OBJS)
     $()
 
 ###################
@@ -39,6 +39,7 @@ TEST_EXECS:= \
     testbz2 \
     testpy \
     testsqlite_query \
+		testxdr \
     $()
 
 # TODO: testdbm temporarily disabled because it does exit(1) when it gets scared
@@ -54,9 +55,10 @@ testbz2: testbz2.o $(EXEC_OBJS)
 testdbm: testdbm.o $(EXEC_OBJS)
 testpy: testpy.o $(EXEC_OBJS)
 testsqlite_query: testsqlite_query.o $(EXEC_OBJS)
+testxdr: testxdr.o $(EXEC_OBJS)
 
-#vpath %.py $(foreach t, $(TEST_EXECS), ../$(t):) 
-vpath %.py ../testplist/:../testjson:../testbz2/:../testxmlrpc/:../testdbm/:../testpy/:../testsqlite_query/
+#vpath %.py $(foreach t, $(TEST_EXECS), ../$(t):)
+vpath %.py ../testplist/:../testjson:../testbz2/:../testxmlrpc/:../testdbm/:../testpy/:../testsqlite_query/:../testxdr/
 
 
 
