@@ -40,6 +40,7 @@ TEST_EXECS:= \
     testpy \
     testsqlite_query \
 		testxdr \
+		testurlparse \
     $()
 
 # TODO: testdbm temporarily disabled because it does exit(1) when it gets scared
@@ -56,9 +57,11 @@ testdbm: testdbm.o $(EXEC_OBJS)
 testpy: testpy.o $(EXEC_OBJS)
 testsqlite_query: testsqlite_query.o $(EXEC_OBJS)
 testxdr: testxdr.o $(EXEC_OBJS)
+testurlparse: testurlparse.o $(EXEC_OBJS)
 
 #vpath %.py $(foreach t, $(TEST_EXECS), ../$(t):)
-vpath %.py ../testplist/:../testjson:../testbz2/:../testxmlrpc/:../testdbm/:../testpy/:../testsqlite_query/:../testxdr/
+vpath %.py ../testplist/:../testjson:../testbz2/:../testxmlrpc/:../testdbm/: \
+					 ../testpy/:../testsqlite_query/:../testxdr/:../testurlparse/
 
 
 
