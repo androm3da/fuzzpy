@@ -13,3 +13,7 @@ First, build the test cases:
 Then run one of the test cases like so:
 
     ./run.sh tests/build/testbz2 tests/testbz2/inputs/
+
+
+### Trophy case
+* http://bugs.python.org/issue25388
