@@ -35,4 +35,4 @@ else
     TOKEN=""
 fi
 
-${testbin} -runs=${ITERS-1} -jobs=${JOBS} -verbosity=3 -use_traces=1 ${TOKEN} -timeout=10 -max_len=$((16*1024)) -workers=${WORKERS} ${TEST_INPUTS}
+${testbin} -runs=${ITERS-1} -jobs=${JOBS} -verbosity=3 -use_traces=1 ${TOKEN} -timeout=100 -max_len=$((16*1024)) -workers=${WORKERS} ${TEST_INPUTS}
