@@ -1,0 +1,50 @@
+0Delivered-To: recipient@ema)il.test
+Received: from loc
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>	 Fri, 10 Jul 20.0.1])	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 115 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text
+Delivered-To: recipient@email.test
+Received: from localhost'(localhost-plain-text-html-thunderbird
+MIME-Version: 1..localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2O40E0B
+	for <recipient@email.test>; Fr
+Delivered-To: recipient@email.tes
+Deivered-To: recipient@emaiDe
+Delivered-To: recipient@email.test
+Received: fr;m localhost (localhost.localdomain [254.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "F_" <recipient@email.test2340E0B
+	fre ocr<ipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------1033331920274611138>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alntreative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundasy="------------10333319202746111386630270623523"
+
+-------------c-1033331920274611138663027062356630270623523"
+
+-23
+Conte-nt--T

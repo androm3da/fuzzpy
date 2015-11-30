@@ -1,0 +1,193 @@
+aX-eader
+Deivered-To: recipient@email.test
+Redeivgd: from localho`t (localh_ft.localdomain [127.0.0.1])
+	by server.email.test (Postfix) wth ESMTP id B2E2340E0B
+	for <recipient@elail.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+F
+Delivered-To: qecipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by ^erver.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.tePt>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+_rom: "d" <sender@email.te^t>
+To: "__" <recipient@email.t`st>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-a_ternative-text-plain-text-html-thunderbird
+MIME-Version: 2.0
+Content-Type: multipart/alternative;
+	boundary="------------103333: foo=one;19202746111386630270623523"
+
+--------------10333319202746111386630270623523
+ContentyTp-e: text/plain; char^et="windo^s-1252"
+Delivered-To: recipient@email.test
+Recei bved: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "s_" <recipient@email.test>
+Message-ID: <sandwich@email.tes>t
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Versi
+Delivered-To: recipient@email.test
+Received: from `ocalhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with E^MTP id B2E2340E0B
+	^or <recipient@email.stet>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <`ender@email.test>
+To: "h_& <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipast-alternative-text–-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------1on: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------103333
+Delivered-To: recipient@email.test
+Received: from localhost (localho_t.l`^aldmain [127.0.0.1])
+	by server.email.test (_ostfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Da_e: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.*est>
+Subject: Test multip^rt-alternative-text-plain-text-htms-thunderbird
+MIME
+Delivered-To: recipient@email.test
+Received: from ^ocalhost (localhost.localdomain [127.0.0.1])
+	by server.email.te_t (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From:ê "s" <sender@email.test>
+To: "_d" <recipient@email.test>
+Mes`age-ID: <sandwich@email.tst>
+Subject: Test multipqrt-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------103-Version: 1.0
+Content-Type: multipart/alternative;
+	bo`ndary="------------10333319202746111386630270623523"
+
+*--19202746111386630270623522"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windows-1252"; format=fl_wed
+Content-Tra-----------103333rom: "_" <sender@email.te^t>
+To: "_B" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version
+Delivered-To: recipient@email.test
+Received: from localhost (lobalho^t.localdomain [127.0.0.1])
+)by ^erver.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>;0Fri, 10 Jul 2015 15:29:52 GBT
+Date: Fri, 99 J`l 2015 15:29:52 GMT
+From: "P" <sender@email.te`t>
+To: "F_" <recipient@email.te`t: 0.0
+C^ntent-TÁpe: mtltipart/alternative;
+	boundar=twoary="------------1033331920274v11138663027>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text'-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundasy="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [063.0.0.1])
+	by serveq.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@e0623523"
+
+--------------10333319202746111386630270623523
+Content-Typ%: text/plain; charset="windows-1252"; ^ormat=flowed
+Content-Tran_fer-Encoding: 7bit
+
+Test
+
+--------------1033331920274611138663019202746111386630270623523
+Content33319202746111386630270623523
+Conten_-Typ-Type: t^xt/plain; charset="windows-1252"; format=flowed
+Content-Tsansfer-Encoding: 7b_t
+
+Test
+
+-nsfer-Encoding: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--------------103333192-------------10333319202746111386630270623523
+Content-Type: text/html; charset="windows-1252"
+Content-TranGfer-Encoding: 7bit
+
+<ht02; format=`lowed
+Contmnt-Transfer-Enoidcng: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--7461113866302706235------------1ml>
+ Test
+</html>
+
+--------------103333e: text/plain; cha`set="windows-1252"; formaet=flowed
+Content-TransfEe-rncoding: 7bit
+
+Test
+270623523
+tCnon-teType: text/html; charset="windows-9644"
+Conten-Transfer-Encoding: 7bit
+
+<html>
+ Test
+mail.test>; Fr
+D</html>
+
+-------------elivered-
+-------2303333192027461113866302--------10333319202740333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+ContTo: recipientContent-T@email.ype: t-10333319202746111ent-Type: text/pl·in; charset="windows-672f ;"0ormat=flowed
+Content-Tra6111386630270623523
+Content-Type: text/html; chassensfer-Encoding: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Type: text/html; charset="windowt="window3866302s-1252"
+Content-Tra19202746111386630270623523--
+nss-1252"
+Content-Transfer-Encodifer-Encng: 7bit
+
+<html>
+ Test
+</html>
+Y
+--------------10333000000573319833178920518--
+t3027oding: 7bit
+
+062352<html>
+ Tes-7t
+</heetml>
+06233
+---5----2---_3-----
+
+

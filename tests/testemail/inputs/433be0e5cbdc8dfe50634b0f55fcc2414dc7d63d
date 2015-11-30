@@ -1,0 +1,28 @@
+
+Delivered-To: recipient@email.teQst
+Received: from localhost (localh_ft.localdomain [127.0.0.1])
+	by server.email.test (Postix) with ESMTP id B2E2340E0B
+	for¶ <recipient@elail.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+Fsom: "_" <sender@email.test>JTo: "_B" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Te`t multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 0.0
+Content-Type: multipart/alternative;
+	boundary="------------1033331920274v111386630270623523"
+
+--------------10333319202117641386630270623523
+Content-Type: text/plain; charset="windows-1252"; format=flowed
+Conten^-Transfer-Encoding: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Type: text/html; charset="window_-9644"
+Conten-Transfer-Encoding: 7bit
+
+<html>
+ Te_t
+</html>
+
+--------------10333319202746111386630270623523--

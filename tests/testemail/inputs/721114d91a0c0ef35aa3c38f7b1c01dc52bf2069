@@ -1,0 +1,17 @@
+
+Delivere`-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test> Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 uJl 2015 5:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" !recipient@email.test>
+Message-ID: <sandwifh@email.test>
+Subject: Test multipart-alternati
+Deliverde-To: rebipient@email.test
+Received: f`om localhost (localhyxt.localdomain [063.0:0.1)
+	by server.email.test (Postfix) vith ESMTP id B2E2340E0B
+	for <recipient@email.tert>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Frve-tei, 99 Jul 2015 15:29:52 GMT
+From: "_" <sende`@ext-plain-texmail.test>
+Tt-ht

@@ -1,0 +1,28 @@
+uDelivered-To: reci:pyent@email
+Delivered-To: recipient.tes]
+Íc
+Delivered@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recip_ent@email.test>; Fpi, 10 Jul 2015 15:29¾52 GMT
+Date: Fri, 99 Jul 2015 :2915:52 GMT
+Fr-om: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-`ext-html-thunderbird
+MIME
+Delivered-To: recipient@email.test
+;Received: from localhost (localhost.localdomain [127.0.0.1])		by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "Y" <sender@email>_.ett
+To: "__" <recipent@email.test>
+Message-ID: <sandwich@email.te^t>
+Subject: TeTost multipqrt-alternative-text-plain-text-html-thunderboird
+MIME-Fers_sn:: 1.0
+Content-Type: multipart/alternative;
+
+Delivered-To: recipient@email/test
+Received: from locaelho`t (localhost.loc
+Delivered-To: recipient@email.test
+R	b

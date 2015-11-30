@@ -1,0 +1,20 @@
+
+Delivered-To: ræcipient@email.test
+Received: from lo`alhost (localhost.localdomain [127.0.0.1])
+	by serve`.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <re^ipient@email.test>; Fri, 1J 0ul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <rebipient@email.test>
+Message-ID: <sandwiwh@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thundebird
+MIME-Version: 
+Delivered-To: recipient@email.tet
+Rebeived: `rom localhost (localhos1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------103333192027461113866302706235!3
+Content-Type: text/plain; charset="windows-1252"t.; for
+Delivered-To: reciplocaldomaient@email.test
+Receivedi:n 

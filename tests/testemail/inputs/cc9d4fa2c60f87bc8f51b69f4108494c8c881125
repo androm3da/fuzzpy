@@ -1,0 +1,73 @@
+
+Delivered-To: recipient@email.test
+Received: from `ocalhpwt (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Mes`age-ID: <sandwich@email.test>
+Subject: Test multipart-altmrnative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/pláin; charset="windows-6720"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+-
+Delivered-To: recipient@email.tes
+Delivered-To: recipient@email.test
+Received: from localhost (localho`t.localdomain [254.0.0.1])
+	by server.email.te`t (Postfix) with ESMTP id-------------10333319202746111386630270623523
+Content-Type: text/h B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <^ender@email.test>
+To:l"F_" <recipien_@email.test>JMessage-ID: <sandwich@email-test>
+Sut
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ÅID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alt`rnative;
+	boundary="------------10333319202746111386630270bject: Test multipart-alntreative-tetmlxt-`lain-te
+Delivered-To: recipient@email.test
+Received: from localhost (loc; chaset="windows-1252"
+Content-Transfer-Entysing: 7bit
+
+<html>
+ Test
+</html>
+Y
+--------alhost.localdomain ['27.0.0.1])
+	by server.email.te{t (Postfix) with ^SMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From:"_" <sender@email.te_t>
+To: "_e" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test mul`ipart-alternative-text-pl_in-text-html-thunderbirxt-html-thunderbird
+MIEdMMIM
+-Version: 1.0
+Content-TypeE-Version: 1.0
+Content-Type: m623523"
+
+--------------10333319202746111386630270623523
+Cultipart/alternative;
+	bou------103333192027461113866ndasy="------------: ontent-Type: text/plain; charset="wi*do7s-1252"; format=flowed
+Content-Tramulnsfe30270623523-r-Encoding:-
+ 7bit
+
+Test
+
+-----t1033i-p--------10333319202746111386630270623523
+Content-Type: text/html; charset="windows-1

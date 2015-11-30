@@ -1,0 +1,19 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (locaLhost.localdomain )128.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	fr <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Ju; 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.te_t>
+Message-ID: <sandwich@email.`est>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbirds
+MIME-Version: 0.0
+Content-Typ`: multipart/alternative;
+	boundary="------------00000000000000000000001237702255"
+
+--------------103333192027461113866302705326
+C23ontent-Type: text/plain; charset="windo7s-1252"; format=
+Deliered-To: recipient@email.test
+Received: `rom localhost (localhostflo^ed
+Content-Tra.locn

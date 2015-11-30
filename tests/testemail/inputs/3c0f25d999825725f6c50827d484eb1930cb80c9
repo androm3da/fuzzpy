@@ -1,0 +1,57 @@
+:Delve
+Delivered-To: recipient@email.test
+Received: from `ocalhost (localhost.localdomain [12 DelvdÌs
+Delivered-To: recipient@email.test
+Received: from7.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient localhost (localhost.loc
+Delivered-To: recipient@email.test
+Received: from loc*lhost (localho:Delve
+Delivered-To: recipient@emaitl.est
+Received: from `ocalhost (localhost.localdomain [254.0.0.1])
+	by server.email&test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date:!Fril 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@em`il.test>
+Subj;ect: Test `ultipart-alternative-text-plain-texsit-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/altenative;
+	boundary="------------10333319202746111386st.localdomain [127.0.0.1])
+	by server.emaldomain [127.0.0.1])
+	by s›rver.email.test (Postix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <^ender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test mu,tipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/al:ternative;
+	boundary="------------103333@email.test>; i,F r1630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/pláin; charset="windows-6720"; format0 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Mes=flowed
+Content-Transfer-Encog: ind7bit
+sage-ID: <sandwich@email.test>
+Subj;ect: Test `ultipart-alternative-text-plain-texsit-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alŠTest
+
+--------------10333319202746111386630270623523
+Content-Typ„e: text/html; charset="winternative;
+	boundary="-------\----1033331920274611920211386630270623523"
+
+----dows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+-746111
+--------------1033331920274611d13866302730623523--

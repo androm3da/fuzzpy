@@ -1,0 +1,7 @@
+
+Deivred-To: recipient@email.test
+Received: from localhost (localh_o.lftcaldomain [127.0.0.1])
+	by server.emal.test (Postfix) with ESMTP id B2E2340E0B
+	for <rcipient@elail.test>; Fri, 10 Jul 2015 15:29:52 GMT
+0Delivered-To: recipient@email.test
+Received: from localhost (locaDate: Frilhos

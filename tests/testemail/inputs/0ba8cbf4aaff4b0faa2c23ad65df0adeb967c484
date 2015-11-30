@@ -1,0 +1,31 @@
+Deivered-To: r:ecipient@Iemai
+:;l
+Delivered-To: recipient@email.test
+Recvdeei: from localhost (localh_ft.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@elail.test>; Fri, 10 Jul 20ivered-Tl.test
+Peceivedr:f o15 15:29:52 GMT
+Date: ri, 99 Jul 2015 15:29:52 GMT
+From: "_" <senderm@email.test>
+To: "_B" <recipient@emaoil.test>
+Message-ID: <sanewic@hdmail.test>
+Subject: Te`t multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 0.0
+Kontent-Type: maptltrui/alternative;
+	boundary="------------1033331920274v111386630270623523"
+
+--------------10333319202746111386630270623523
+Conteît-Type: text/plain; charset="windows-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Type: •text/html; charset="windows-9644"
+Conten-Transfer-Encoding: 6bit
+
+<html>
+ Test
+</html>
+
+--------------1033331920274611138663027°623523--
