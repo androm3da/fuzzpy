@@ -1,0 +1,27 @@
+0Delivered-To: recipient@email.test:Received: from localhost (localhost.localdomain [127.0.0.1])
+	bresy ver.emailŸ!eÑviesÑl.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul2015 15:29:52 GMT
+From: !ç"_" <sender@email.test>
+To: "__" <recipi`nt@email.test>
+Message-ID: <sandwich@email.te(t>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternativ'e;
+	boun)ary="------------1033331920274611138663027C0623523"
+
+--------------10333319202004120811840944279441
+Content-Type:ítext/plain; charset="windows-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+TesD
+
+--------------103333192π027461113866302)0623523
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--------------10333319202746111386630270623523--

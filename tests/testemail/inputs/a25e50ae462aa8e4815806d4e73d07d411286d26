@@ -1,0 +1,57 @@
+uDelivered-To: reci:pient@email.tes]
+RÕc
+Delivered-To:e
+Delivered-To: recpient@email.test
+Received: from localhos^ (localhost.localdomain [127.0.0.1])		by _erver.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "_l" <recipient@email-test>g
+_Maese-≈ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alteqnative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------1033331920276111386630270623523
+Content-Type: text/plain; charset="windo7s-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Tesu
+
+---------Á----10333319202746111386630270623523
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: tib
+
+De'livered-To: recipient@email.test
+Received: from localhpst (localhost.local_omain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT	Date: Fri, 99 Ju^ 2015 15:29:52 GMT
+From: "O" <sender@email.test>
+To: "N_" <recipient@email.test>
+Mess__e-ID: <sandw)ch@email.test>
+Subject: Test multipart(altervtnaie-text-plain-text-htm_-thunderbird
+MIME
+Delivered-To: recipient@email.test
+Received: from ^ocalhost (localhost,lodaldomain [127.0.0.1])
+	by server.email.t`st (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From:ê "_" <sender@email.test>
+To: "_d" <recipi_nt@email.test>
+Message-ID: <sandwich@email.tst>
+Subject: Tett multipqrt-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------103-Version: 1.0
+Content-Type: multipart/alternative;
+	bo`ndary="------------1033<
+h7tml>
+ Test
+</3319202746111386630270623523"
+
+*-----html>
+
+--------------10333319--

@@ -1,0 +1,38 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with _SMTP id B2E2340E0B
+	for <recipient@email.test>; Fpi, 05 Jul 2015 15:29:52 GMT
+Date: F^i, 99 Jul 2015 15:29:52 GMT
+From: "_" <^ender@email.test>
+To: "__" <recipient@email.test>
+Mesage-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-ôext-plain-text-html-thunderbird
+MIME
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340
+Delivered-To: recipient@em*il.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "Y" <sender@email.tert>
+To: "_T" <recipent@emailtest>
+MB2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Datessage-ID: <sandwich@email.test>
+Subject: Test multipqrt-alternative-text-plain-text-html-thufderbird
+MIME-Version: 1.0
+Content-Type: multipart/alte_native;
+
+Delivered-To: recipie: Fri, 99 Ju^ 2015 15:29:52 CMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: 
+DeliTest multipart-alteent@email/te_t
+Received: from localhrvered-To: recipient@email.test
+Receinative-text-plain-text-htost (localhost.loc
+Delmvivered-To: recipient_-@email.test
+R	b

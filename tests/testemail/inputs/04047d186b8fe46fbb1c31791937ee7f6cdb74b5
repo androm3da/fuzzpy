@@ -1,0 +1,55 @@
+0Delivered-To: recipient@email.test
+Received:$from localhost (localhost.localdomain [127.0.0.1])
+	bresy ver.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@emaKil.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwic@email.test>
+Subject: emu tTlstipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/altern;tiv'e;
+	boundary="------------1033e!
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-KD: <sanlwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/pláin; charset="windows-1252"; form3319202À74611138&63027C0623523"
+
+--------------1033331920274w:
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix)
+Deliver6136161830270623523
+Content-at=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+-----
+eDvm)i
+---------10333319202Type: text/plain; charset="wind-ws-1252"; format=flowed
+Content-Transfer-Encoded-To: recipient@em746111ail.test
+Received: from `ocaing: 7386630270623523
+Content-Typbit
+e: text/html; charset="win^ows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+-------------„-103d333192027
+TesD
+
+----------l4611h138663os0270623523--

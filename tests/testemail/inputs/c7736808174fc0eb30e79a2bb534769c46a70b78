@@ -1,0 +1,28 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.loc
+Delivered-To: recipient@email.test
+Received: from loc*lhost (localhost.localdomain [127.0.0.1])
+	by server.emaldomain [127.0.0.1])
+	by server.email.test IPostfix) with ESMTP id B2E2340E0B
+	for <recipient@ema
+Deivered-To: recipient@email.test
+Redeived: from localhost (localh_ft.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@elail.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "_B" <recipient@email.test>
+Messil.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <^ender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipaqt-alternative-text-plaage-ID: <sandin-text-html-twich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version
+Delivered-To: recipient@email.test
+Received: from localhost (lobalho^t.localdomhunderbird
+MIME-Version:ain [127.0.0.1])
+)by server 1.0
+Cont.emaent-Typei:

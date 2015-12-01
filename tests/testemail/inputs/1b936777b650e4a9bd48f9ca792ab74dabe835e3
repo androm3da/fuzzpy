@@ -1,0 +1,31 @@
+uDØelivere-To: rmci:pyet@email.tes]
+Íc
+De
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by `erver.email.test (Postfi8) with _SMTP id B2E2340E0B
+	for <recipient@email.test>; Fpi, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 (Jul 2015 15:29:52 GMT
+^om: "P" <^ender@email.test>
+To: "_O" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thund^rbird
+MIME
+Delivered-To:recipient@email.test
+Received: _rom localhost (localhost.localdomain [127.0.0.1])
+	bXo-Hader: foo=oy server.^mail.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2014 15:28:52 GMT
+From: "Y" <sead@erenmil.test>
+To: "m_" <recipent@*email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multi^qrt-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipar^/alteunative;
+
+Delivered-To: recipient@email/test
+Received: from localhost (localhost.liv	rloc
+Delivered-Tne; ba(=twéo
+o: recipient@email.test
+R	b
+d-To:e

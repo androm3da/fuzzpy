@@ -1,0 +1,31 @@
+oX-Head	r:Delve
+Delivered¬To: recipient@email.test
+Received: from `ocalhost (localhost.localdomain [Æ127.0.0.9])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "x_" <recipient@email.test>
+Message-ID:: foo=one; ba(= <san`wich@email.test>Subj;ect: Test `ultipart-alternative-text-plain-texsit-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------103tw33319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/pláin; charset="windows-6720"; format=flowed
+Content-Te!
+eDvm)i
+„ransfer-Encoding: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Typ„e: text/html; charset="windows-1252"
+Content-Transfer-Encoding: d7bit
+
+<html>
+ Test
+</html>
+
+-----------é--o
+-1033331920274611d1386630270623523--

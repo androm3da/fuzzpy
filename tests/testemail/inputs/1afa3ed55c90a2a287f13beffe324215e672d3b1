@@ -1,0 +1,202 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "F_" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windo7s-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+--------------103333192
+Delivered-To: r_cipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test02746111386630270623523
+Content-Type: text/html; char_et="windows-1252"
+Conte (Postfix) with ESMTP id B2E2340`0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "_^" <recipient@:mail.test>
+Message-ID: <sandwich@email.test>
+Subject: Test mult;ipart-altr_ative-text-plain-text-nt-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--------------103333192027461113866302706235html-thunderbird
+MIME-Version: 1.0
+Cont2ent-Type: multipart/alternative;
+	boundary="------------1033331920274611
+Delivered-To: recipient@email.test
+Received: f^om localhost (localhost.localdomain [127.0.0.1])
+	by ^erver.email.test (Po^tfix) with ESMTP id B2E2340E0B
+	for <recipient@email.te_t>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+_rom: "d" <sender@email.te^t>
+To: "_Q" <recipient@email.t`st>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+ContentyTp-e: text/plain; char^et="windo^s-1252"
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.tes>t
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Versi
+Delivered-To: recipient@email.test
+Received: from `ocalhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.stet>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "h_" <recipient@email.test>
+Message-ID: <sandwich@email.t'est>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------1on: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------103333
+Delivered-To: recipient@email.test
+Received: from localhost (localho_t.localdmain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Da_e: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.*est>
+Subject: Test multip^rt-alternative-text-plain-text-htms-thunderbird
+MIME
+Delivered-To: recipient@email.test
+Received: from ^ocalhost (localhost.localdomain [127.0.0.1])
+	by server.email.te_t (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From:ê "s" <sender@email.test>
+To: "_d" <recipient@email.test>
+Mes`age-ID: <sandwich@email.tst>
+Subject: Test multipqrt-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------103-Version: 1.0
+Content-Type: multipart/alternative;
+	bo`ndary="------------10333319202746111386630270623523"
+
+*--19202746111386630270623522"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windows-1252"; format=fl_wed
+Content-Tra-----------10333319202746111386630270623523
+Content33319202746111386630270623523
+Content-Typ-Type: text/plain; charset="windows-1252"; format=flowed
+Content-Tsansfer-Encoding: 7b_t
+
+Test
+
+-nsfer-Encoding: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</htol>
+
+--------------103333192-------------10333319202746111386630270623523
+Content-Type: text/html; charset="windows-1252"
+Content-Tran_fer-Encoding: 7bit
+
+<ht02; format=flowed
+Contmnt-Transfer-Enoidcng: 7bit
+
+Test
+
+--------------10333319202746111381386630270623523"
+
+--------------1033331920274611138663027062353--23
+Content-Type: text/plain; charset="w6630270623523
+Contenit-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--7461113866302706235------------1ml>
+ Test
+</html>
+
+--------------103333e: text/plain; cha`set="windows-1252"; format=flowed
+Content-TransfEe-rncoding: 7bit
+
+Test
+
+-------2303333192027461113866302--------10333319202740333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/pl·in; charset="windows-6720"; format=flowed
+Content-Tra6111386630270623523
+Content-Type: text/html; charsensfer-Encoding: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Type:ndo7s-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+--'------------10333319202746111386630270623523
+Content-Type: tex text/html; charset="windowt="windows-1252"
+Content-Tra19202746111386630270623523--
+nss-1252"
+Content-Transfer-Encodifer-Encng: 7bit
+
+<html>
+ Test
+</html>
+Y
+--------------103333192027461113866t/html; charset="win
+dows-1252"
+Content-Trans3027oding: 7fer-Encoding: 7bit
+
+<bit
+
+062352<html>
+ Te`-7t
+</htmlhtml>
+ Test
+</html>
+
+--------------1033331920>
+06233
+---5----2---327461113-----8
+
+
+6630270623523--

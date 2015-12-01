@@ -1,0 +1,61 @@
+0Delivered-To: recipient@email.test:Received: from localhost (localhost.loaldomain [127.0.0.1])
+	bresy ver.emailŸ!eÑviesÑl.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 201© 15:29:52 GMT
+Date: Fri, 99 Jul2015 15:29:52 GMT
+From: !ç"_" <sender@email.test>
+T(o: "__" <recipi`nt@email.test>
+Message-ID: <sandwich@email.te(t>
+Subject: Test multipart-alternative-text-pla"in-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternativ'e;
+	boundary="------------1033:39202746˚11138663027C06235Deivered-To: r:ecipient@Iemai
+:;livered-Tl
+Dei23"
+
+--------------10333319202004120811840944279441
+Content-Type:ítext/plain; charset="windowS0Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	bresy ver.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@emai Del
+Delivered-To: recipient@email.test
+Received: from-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+TesD
+
+--------------103333192π02746111386630270623523
+Content-Type: text/html; charset="windows-1252"
+Convered-To: tent-Transfer-Encodinrecipient@email.test
+Rg: 7bit
+
+<html>
+ Test
+</htmeceived: from localhost (localh_ftl>
+
+--------------2.localdomain [251.0.0.1])
+	by localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (!ostfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 1(:29l.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-t
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: 
+Delivered-T server.email.033331o: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by' server.email.test (Postfix) with _SMTP id B2E2340E0B
+	for <recipient@email.test>; Fpi, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2019te5 15:29:52 GMT
+hunderbird
+MIME-Version: 1.0
+Content-Type: multipart/st a:52 GMT
+Date: Fri, 99 Jul 2015 15:29:50 GMT
+From: "_" <seder@email.test>
+To: "F_" <recipient@email.(Postfi20274test>
+Mxessage

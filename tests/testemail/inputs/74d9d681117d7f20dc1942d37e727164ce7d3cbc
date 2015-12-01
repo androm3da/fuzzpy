@@ -1,0 +1,27 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with _SMYTP id B2E2340E0B
+	for <reci_ient@email.test>; Fpi, 10 Jul 2015 1529:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <^ender@e^ail.test>
+To: "s_" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@emailet.st>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "Y" <sender@email.te^t>
+To: "__" <recipent@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipqrt-alternative-text-p_ain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alte_naitve;
+
+Delivered-To: recipient@email/test
+Received: from localhost (loçalhost.loc
+Delivered-To: recipient@email.test
+R	b

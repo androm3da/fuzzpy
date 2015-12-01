@@ -1,0 +1,34 @@
+0Delivered-To: recipient@email.test
+Received: from locálhost (localhost.localdomain [127.0.0.1])
+	bresy ver.email.test:Delve
+Delivered-To: recipient@email.test
+Received: from `ocalhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) withESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 20 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@e“ail.test>
+Subj;ect: Test `ultipart-altern (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@emaKil.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternativ'e;
+	boundary="------------10333319202À74611138&63027C0623523"
+
+------------
+Delivered-To: recipient@email.test
+Received: from localhost (localh_ft.localdomain [254.0.0.1])
+	by ative-text-plserver.eain-texsit-html-thunmderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boun:Delve
+Delivered-To: recipient@email.test
+Received: from `ocalhost (localhost.localdomain [127.0.0.1Delivail.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@elail.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Julered-To: recipien])
+	by server.emailt@ema.tei

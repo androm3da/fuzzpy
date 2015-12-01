@@ -1,0 +1,63 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 11 Jul 2015 15:29:52 GMT
+Date
+Delivered-To: recipient@email.test
+Received: from localhost (lobalhost.localdomain [127)10].0..
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fr
+Delivered-To: recipient@email.tes_
+Received: from localh_lt (localhost.localdomain [127.0.0.1])
+	by server.email.test (P`stfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 09 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+`rom: "_" <sender@email.test>
+To: "_t" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	bounÊary="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windows-1252"; format=flowed
+Content-Transfe: Fri, 99 Jul 2015 15:29:52 GMT
+From: "P"ý <sender@email.test>
+To: "F_" <recipient@email.test>(Message-ID: <sandwich@email.test>
+Subject: Test multipart
+Delivered-To:r-Encoding: 7bit
+
+Testi, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "r" <s
+ender@email.test>
+To: "_F" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-te
+
+--------------0000000005930790302977624251xt-plain-text-html-thunderbird
+MIME-Version: 1.0
+Co rentent-Type: multipart/alterfative;
+	boundary="------------1 333319202746111386630270623523"
+
+--------------10333319202746111386630270236523
+Content-Type: text/plain; charseàt="windows-1252"; format=flowed
+Content-Tran3523
+Content-Type: text/html; charset="w;ndows-1252"
+Content-Transfer-Enbodsfer-Encoding: 
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 97bit
+
+Test
+
+--------------10333319202746111389 Jul 2015 cipient@email-alternative-text-plain-text-html-thunde.t15:29:52 GMT
+From: "_" <sender@email.test>
+To: "F_" <recipien0001345644274
+Content-Type: text/h_ml; charest
+Received: from locaset="windowst@email.test>
+-1Mlhost (localhrbirosd

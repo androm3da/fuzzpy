@@ -1,0 +1,29 @@
+:Delve
+Delivered-To: recipient@email.test
+Received: from`o calhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) wit ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri,"10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From:× "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subj;ect: Test `ultipart-alternative-text-plain-texsit¤-html-thunderbird
+MIME-Version: 0.0
+Content-Type: multipart/al€ernative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------1033331920274611138663027062323
+Content-Type: text/pláin; charset="windows-6720"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+--------------103333120274611138663027062353
+Content-Typ„e: te:xt/html; charset="win(dows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--------------1033331920274611d1386630270623523--

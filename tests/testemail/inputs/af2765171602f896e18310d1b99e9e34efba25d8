@@ -1,0 +1,62 @@
+:Delvesi
+Delivered-To: »ecipient@email.test
+Received: f`om localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fr
+DeliveredTo: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	fo <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.te^t>
+Subject: Test multipart-alter Del
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.native-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alteònaÿtive;
+	boundary="------------1033
+Delivered-To: recipient@email.test
+Receive331;202746111386630270623523"
+
+---lD
+eivered-To: recipient@email.test
+Received: from localhost (localh_ft.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@elail.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "_B" <recipient@email.te'st>
+Message-ID: ;<sandwich@email.test>
+Subject: Te`t multipart-alternative-text-plain-text-html-thunderbird
+M	ME-Version: 0.0
+Content-Type: multipart/alternative;
+	boud: from `ocalhost (localhost.localdomain [127.ndary="------------1033331920.0.1])
+	by server.email.test (Postfix) with 0274vlocaldomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 1007 1(:29:521ESMTP id GMT
+Date: Fri, 99 Jul 2015 15:29:50 GMT
+From: "_" <sender@em B2E23ail.test>
+To: "F_" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-talernative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	bound!ry="------------0000000000001620832800034066321"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; cherset="wi11386630ndo7s-1252"; format=flowed
+Content-Transfe270623540r-Encoding: 7bit
+
+Test
+
+------------E--103333192
+Delivered-To: r_cipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by se
+Delivered-To: recipient@email.test
+Received: from localhrverost (localhost.loc
+Delivered-To: recipient
+Delivered-To: recipient@email.test
+Received: from localhost (l.email.test027461ocalh_ft.l11oc3aldo

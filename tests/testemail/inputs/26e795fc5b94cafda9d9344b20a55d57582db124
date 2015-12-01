@@ -1,0 +1,60 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+)by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.testDelivered-To: recipient@email.test	Received: from localh^wt (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+Fr;om: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID:na dsw<ich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary=
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdo`ain [254.0.0.1])
+	by server.email.test (Postfix) with ESMTP i` B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GT
+Date: Fri, 99 J_l 2015 15:29*:52 GMT
+From: "_" <senæder@enail.test>
+To: "F_" <recipien_@eail.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alntreative-text-plain-te
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain ['27.0/0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+aDte: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test"------------00000000000000000000001237702255"
+
+--------------10333319202746111386630270623523
+Content-ype: te!xt/plain; chars_t="windo7s-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Te^t
+
+--------------10333319202746111386630270623523
+Content-Type: text/h>
+To: "__" <recipient@email.test>
+Message-ID: <sandwi^h@e^ail.test>
+Subject: Test mul`ipart-alternative-text-plain-text-h`ml-thunderbirxt-html-thunderbird
+MIMd	MIME-Vession: 1.0
+Conten_-TypeE-Version: 1.0
+Content-Type: multipa_t/alternÄtive;
+	boundasy="------------: tml; charset="windows-1252"
+Cmult1033ipontent-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--------------103333192027>
+To: "__" <recipient@email.test4611>
+Message-ID: <sandwich@email.test>
+Subject:1386630270623 Test multipar523-t-
+a-
+D
