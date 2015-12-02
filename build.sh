@@ -17,9 +17,8 @@ fi
 ASAN_OPTIONS=detect_leaks=0
 export ASAN_OPTIONS
 
-export PATH=${INSTALL_PREFIX?}/bin:$PATH
+export PATH=${INSTALL_PREFIX?}/bin:${PATH}
 CLANG=${INSTALL_PREFIX}/bin/clang
-#CLANG=clang
 
 LLVM_SRC=${PWD}/llvm_src/
 LLVM_BUILD=${LLVM_SRC}/build/
@@ -49,7 +48,9 @@ build_clang()
       ;;
     esac
 
-    CC=${CLANG} CXX=${CLANG}++ cmake  \
+    cmake  \
+    	-DCMAKE_C_COMPILER=$(which clang) \
+	-DCMAKE_CXX_COMPILER=$(which clang++) \
         -DCMAKE_BUILD_TYPE=Release \
         -DLLVM_TARGETS_TO_BUILD=${TARGET} \
         -G "Unix Makefiles" \
