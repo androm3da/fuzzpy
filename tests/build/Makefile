@@ -5,7 +5,7 @@ all: testbin
 
 include ./_tests.mk
 
-SANCOV=-fsanitize-coverage=bb,indirect-calls,8bit-counters
+SANCOV=-fsanitize-coverage=edge,indirect-calls
 SAN=-fsanitize=address
 SAN_FLAGS=$(SAN) $(SANCOV)
 
