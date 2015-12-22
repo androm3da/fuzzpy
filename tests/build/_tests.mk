@@ -35,7 +35,7 @@ EXEC_OBJS+= \
 TEST_EXECS:= \
     testplist \
     testjson \
-    testxmlrpc \
+    testxml \
     testbz2 \
     testpy \
     testsqlite_query \
@@ -52,7 +52,9 @@ TEST_OBJS=$(foreach t,$(TEST_EXECS),$(t).o)
 
 testplist: testplist.o $(EXEC_OBJS)
 testjson: testjson.o $(EXEC_OBJS)
-testxmlrpc: testxmlrpc.o $(EXEC_OBJS)
+
+# Disabled for now in favor of testxml
+#testxmlrpc: testxmlrpc.o $(EXEC_OBJS)
 testbz2: testbz2.o $(EXEC_OBJS)
 testdbm: testdbm.o $(EXEC_OBJS)
 testpy: testpy.o $(EXEC_OBJS)
@@ -60,9 +62,12 @@ testsqlite_query: testsqlite_query.o $(EXEC_OBJS)
 testxdr: testxdr.o $(EXEC_OBJS)
 testurlparse: testurlparse.o $(EXEC_OBJS)
 testdecimal: testdecimal.o $(EXEC_OBJS)
+testxml: testxml.o $(EXEC_OBJS)
+
+singleurlparse: sample.o testurlparse.o
 
 #vpath %.py $(foreach t, $(TEST_EXECS), ../$(t):)
-vpath %.py ../testplist/:../testjson:../testbz2/:../testxmlrpc/:../testdbm/: \
+vpath %.py ../testplist/:../testjson:../testbz2/:../testxml/:../testdbm/: \
 					 ../testpy/:../testsqlite_query/:../testxdr/:../testurlparse/: \
 					 ../testdecimal/
 

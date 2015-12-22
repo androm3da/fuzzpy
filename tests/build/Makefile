@@ -1,7 +1,7 @@
 
 .PHONY: all clean
 
-all: testbin
+all: testbin singleurlparse
 
 include ./_tests.mk
 
@@ -14,9 +14,9 @@ COMPILE_FLAGS+=-g -fno-omit-frame-pointer -std=c++11
 PKG_CONFIG_PATH=$(INSTALL_PREFIX)/lib/pkgconfig
 
 LDLIBS=-stdlib=libc++ -lutil -lc++ -lc++abi
-LDLIBS+=-Xlinker -export-dynamic $(shell PKG_CONFIG_PATH="$(PKG_CONFIG_PATH)" pkg-config --libs python)
+LDLIBS+=-Xlinker -export-dynamic $(shell PKG_CONFIG_PATH="$(PKG_CONFIG_PATH)" pkg-config --libs python3)
 COMPILE_FLAGS+=-stdlib=libc++
-COMPILE_FLAGS+=$(shell PKG_CONFIG_PATH="$(PKG_CONFIG_PATH)" pkg-config --cflags python)
+COMPILE_FLAGS+=$(shell PKG_CONFIG_PATH="$(PKG_CONFIG_PATH)" pkg-config --cflags python3)
 
 LDFLAGS+=$(SAN) -pthread
 CFLAGS+=$(CPPPATH) $(SAN_FLAGS) $(COMPILE_FLAGS) -pthread

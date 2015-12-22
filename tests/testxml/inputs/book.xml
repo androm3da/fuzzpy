@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<catalog>
+<book id="a">
+<author>A, B</author>
+<title>T</title>
+<genre>C</genre>
+<price>1</price>
+<publish_date>1111-11-11</publish_date>
+<description>text</description>
+</book>
+</catalog>
