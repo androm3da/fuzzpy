@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
+#   DISABLED: libdbm calls exit() in some error conditions
+
 from dbm import gnu as dbm
-import tempfile
+from tempfile import NamedTemporaryFile
 import os
 
 FIELDS = (
@@ -12,12 +14,14 @@ FIELDS = (
     b'intended',
     b'THERE',
 )
-with tempfile.NamedTemporaryFile(suffix='.db', delete=False, dir='/dev/shm') as f:
+
+
+with NamedTemporaryFile(suffix='.db', delete=False, dir='/dev/shm') as f:
     f.write(b'@')
     f.close()
     try:
         db = dbm.open(f.name, 'r')
-        for f in FIELDS: 
+        for f in FIELDS:
             x = db.get(f, None)
 
     finally:

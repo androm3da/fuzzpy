@@ -1,4 +1,8 @@
 
 import json
-text = b'@'
-json.loads(text)
+text = '@'
+
+try:
+    json.loads(text)
+except ValueError:
+    pass

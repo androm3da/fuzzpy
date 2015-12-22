@@ -1,4 +1,10 @@
 
 import bz2
 text = b'@'
-bz2.decompress(text)
+
+try:
+    bz2.decompress(text)
+except OSError:
+    pass
+except ValueError:
+    pass
