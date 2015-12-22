@@ -101,17 +101,17 @@ e.g.
     echo "\d{4,5}" > tests/testrepat/inputs/some_digits
     echo "[A-Z]+" > tests/testrepat/inputs/some_alpha
 
-If your test can leverage a set of tokens as inputs, put them as
-newline-delimited content in `tests/<testname>/<testname>.tok`.
-
-e.g.
-
-    echo -e '+\n-\n/\n*' > tests/testrepat/testrepat.tok
-
-
 The fuzzer will perturb these inputs in one of a few different transforms,
 watching how the resulting program executes.  It will continue to iterate and
 focus on the input values which drive the untested frontier further.
+
+#### Sanity-check
+
+Once you have a test case, you can quickly verify that it makes sense with
+your inputs:
+
+    ./tests/run_test.py ./tests/testrepat/testrepat.py ./tests/testrepat/inputs
+
 
 ## Trophy case
 * http://bugs.python.org/issue25388
