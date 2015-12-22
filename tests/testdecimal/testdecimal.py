@@ -3,6 +3,6 @@
 from decimal import Decimal, InvalidOperation
 
 try:
-    num = Decimal(b'@')
+    num = Decimal('@')
 except InvalidOperation:
     pass

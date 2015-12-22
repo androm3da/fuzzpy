@@ -4,7 +4,7 @@ text = b'@'
 
 try:
     bz2.decompress(text)
-except OSError:
+except EnvironmentError:
     pass
 except ValueError:
     pass
