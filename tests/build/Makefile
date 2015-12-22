@@ -1,7 +1,7 @@
 
 .PHONY: all clean
 
-all: testbin singleurlparse
+all: testbin
 
 include ./_tests.mk
 
