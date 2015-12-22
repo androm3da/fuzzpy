@@ -1,4 +1,6 @@
 
+# DISABLED: expat vulnerabilities are disclaimed by the CPython docs
+
 from xml.parsers import expat
 
 parser = expat.ParserCreate(None, None)
