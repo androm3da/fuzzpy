@@ -12,8 +12,8 @@ if [[ ${MAKEJOBS} -gt 16 ]]; then
     MAKEJOBS=16
 fi
 
-# TODO: follow up w/CPython and/or llvm team on 'leaks' (or 
-#    create suppressions)
+# TODO: create suppressions for CPython memory management
+#   behavior detected as "leaks"
 ASAN_OPTIONS=detect_leaks=0
 export ASAN_OPTIONS
 
@@ -33,6 +33,8 @@ build_clang()
     ln -sf ../../clang
     cd ${LLVM_SRC}/llvm/projects
     ln -sf ../../compiler-rt
+    ln -sf ../../libcxx
+    ln -sf ../../libcxxabi
     mkdir -p ${LLVM_BUILD}
     cd ${LLVM_BUILD}
 
