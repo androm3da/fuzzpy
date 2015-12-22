@@ -48,9 +48,7 @@ build_clang()
       ;;
     esac
 
-    cmake  \
-    	-DCMAKE_C_COMPILER=$(which clang) \
-	-DCMAKE_CXX_COMPILER=$(which clang++) \
+    CC=$(which clang) CXX=$(which clang++) cmake  \
         -DCMAKE_BUILD_TYPE=Release \
         -DLLVM_TARGETS_TO_BUILD=${TARGET} \
         -G "Unix Makefiles" \
