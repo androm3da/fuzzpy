@@ -28,11 +28,27 @@ finish_up()
 trap "finish_up $LINENO" INT TERM ERR
 
 test_name=$(basename ${testbin})
-token_path="tests/${test_name}/${test_name}.tok"
-if [[ -e ${token_path} ]]; then
-    TOKEN="-tokens=${token_path}"
-else  
-    TOKEN=""
+
+# In order to minimize the test corpus, we can
+#   rename .../inputs/ to inputs_old/ and
+#   libFuzzer will merge the contents forward,
+#   preserving only "interesting" cases.
+OLD_TESTS=tests/${test_name}/inputs_old/
+OUTPUTS=tests/${test_name}/results/
+if [[ ${SANITY_CHECK} -ne 0 ]]; then
+    MAX_TOTAL="-max_total_time=2"
 fi
 
-${testbin} -runs=${ITERS-1} -jobs=${JOBS} -verbosity=3 -use_traces=1 ${TOKEN} -timeout=100 -max_len=$((16*1024)) -workers=${WORKERS} ${TEST_INPUTS}
+mkdir -p ${OUTPUTS}
+
+${testbin} -runs=${ITERS-1} \
+      -jobs=${JOBS} \
+      -verbosity=3 \
+      -use_traces=1 \
+      -artifact_prefix=${test_name} \
+      -exact_artifact_path=${OUTPUTS} \
+      -timeout=2000 \
+      -max_len=$((16*1024)) \
+      -workers=${WORKERS} \
+      ${MAX_TOTAL} \
+      -merge=1 ${TEST_INPUTS} ${OUTPUTS} ${OLD_TESTS}
