@@ -1,3 +1,7 @@
 
 text = b'@'
-compile(text, '<string:{}>'.format(text), 'exec')
+try:
+    compile(text, '<string:{}>'.format(text), 'exec')
+except Exception:
+    pass
+    

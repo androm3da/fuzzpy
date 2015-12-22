@@ -14,15 +14,17 @@ static PyWrap src_wrapper(static_cast<const char *>(&_binary_src_py_start),
 
 static PyConsole p;
 
-extern "C" void LLVMFuzzerTestOneInput(const unsigned char *data, unsigned long size)
+extern "C" int LLVMFuzzerTestOneInput(const unsigned char *data, unsigned long size)
 {
-  if (size < 1) { return; }
+  if (size < 1) { return 0; }
 
   const std::string source_str = src_wrapper.get_source(data, size);
 
   Py_Initialize();
   p.import();
 
-  PyRun_SimpleString(source_str.c_str());
+  const int ret = PyRun_SimpleString(source_str.c_str());
   Py_Finalize();
+
+  return ret;
 }
