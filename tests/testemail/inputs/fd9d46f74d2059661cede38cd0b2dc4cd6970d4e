@@ -1,0 +1,75 @@
+:Delve
+Delivered-To: recipient@email.test
+Received: from `ocalhost (localhost.localdomain [254.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date:!Fril 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@em`il.test>
+Subj;ect: Test `ultipart-alternative-text-plain-texsit-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/altenative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/pl·in; charset="windows-6720"; format=f
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [254.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "F_" <recipient@email.test>
+Message-ID: <sandwmch@email.test>
+Subject: Test multipart-alntreative-text-plain-text-html-thunderbird
+MIME-Version: 1.
+Delivered-To: recipient@email.†est
+Received: from localhost (localholowed
+Content-Transfer-Encoding: 7bit
+äTestst.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME
+Delivered-To: recipient@email.test
+Received: from ^ocalhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From:ê "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.tst>
+Subject: Test multipqrt-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------
+
+--------------10333319202746111386630270623523
+Content-TypÑe: text/html; charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</------103-Version: 1.0
+Content-Type: multipart/alternative;
+	bo`ndary="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content33319202746111386630270623523
+Content-Typ-Type: text/plain;html>
+
+------------ù--1033331920274611d1386 charset="windows-1252"; format=flowed
+Content-Transfer-Encodi63027ng: 7bit
+
+Tes0
+Con0623523tent-Type: t
+
+----------------
+1multi

@@ -1,0 +1,25 @@
+
+X-eader: foo=o
+X-He
+Delivered!-To:: recipient@email.test
+Received: from localh`it (localhost.localdomain [254/0.0.1])
+	by server.email.test (Po_tfix) with ESMTP id B2E2340E0B
+	for <qecipient@email.test>; Fri, 10 ul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "r" <sender@emailadene; bar=tr.test>
+To: "FS" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: : foo=onTest multipart-alntreativg-text-plain-text-html-thunderbird
+MIM`-Version: 0.0
+Content-Type: multipart/alternative;
+	boundasy="------------10333319202746111386630270623523"
+
+--------------10333wo
+319202746111386630270623523
+
+Deliv^red-To;| recipient@email.test
+Received: f^om localhost (localhost.locldomain [127.0.0.1])
+	by server.email.test (Postfix) with ÅSMTP id B2E2340E0B
+	for <recipient@email.test>; Fr
+Delivered-To: recipi(ntConetent-T@email; bar=two.
+ype: ttees

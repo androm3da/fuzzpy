@@ -1,0 +1,322 @@
+:„e
+Delivered-To: recipient@email.test
+Received: from lo`alhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <re^ipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-pl£ain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="-,----------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windows-1252"; for
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [254.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340EDelivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "F_" <recipient@email.test>
+Message-ID: <sandwich@email.t
+Delivered-To: recipient@ema
+Delivered-To: recipient@email.test
+Received: `rom localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (ostfix) with ESMTP  iE2Bd2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.te^t>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternativ-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windows-1252"
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E23Ý40E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__"
+Deliverde-To: recipient@email.test
+R!ceived: from localhost (localhost.localdomain [253.0:0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.tert>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+--------------10333319202746111386630270623523 <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------1033331920274611138663027023523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windows-1252"
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:
+Con_ent-Type: te52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.tust>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Versioxt/plain; charset="windows-1252"; for
+Delivered-To: reci) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.pient@emn: 1.0
+Content-Type: multipaairt/alternative0
+Content-Type: multipartalternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------103333192;
+	boundary="---02746111386630270623523
+Content-Type: text/plain; charset="windows-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+--------------10333319202747111386630270623523
+Conten---------10333t3
+Delivel.re-Type: text/html; charset="windows-1252"
+Content-ransfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--------------10333319203; format=flowed
+Contmnt-Transfer-Encoding: 7bi
+
+tTest
+
+--------------10333319202746111386630270623523
+C
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain )127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Ju; 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Mes
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	forsage-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Typ`: multipart/alternative;
+	boundary="-----'-------00000000000000000000001237702255"
+
+--------------103333192027461113866302705326
+C23ontent-Type: text/pDelivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "F_" <recipient@email.test>
+Message-ID: <sandwich@email.t
+Delivered-To: recipient@ema
+Delivered-To: recipient@email.test
+Received: `rom localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (ostfix) with ESMTP  iE2Bd2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.te^t>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windows-1252"
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.2.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E23Ý40E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__"
+Deliverde-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0:0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.tert>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-tex0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15mat=flowed
+Content-T:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subjec :tTest multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative
+Delivered-To: secipient@email.test
+Received: from localhost (localhost.localdomai) [127.0.0.1
+Delver])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@emil.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.tet>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	bounda=yr"------------1033331920274611386630270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windows-1252"; fo`
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15mat=flowed
+Content-T:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subjec :tTest multipart-alternative-text-plain-text-html-thunder
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMYT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundaréy="------------00000000000000000000001237702255"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windo7s
+Delivered-To: recipient@emaid.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E230E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "F_" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 2.0
+Content-Type: mult-1252"; format=flowed
+Content-Transfer-ipart/alternative;
+	boundary="------------10333319202746111386630270623522"
+
+--------------10339012332746111386630270623523
+Content-Type: text/plain; charset="windo7s-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+--------------103333192
+Delivered-To: r_cipient@email.test
+Received: from localhEncoding: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Type: text/ht)ml; charset="windows-1252"
+Coost (localhost.localdomain [127.0.0.1])
+	by server.email.test02718435796965703040582
+Content-Type: text/html; char_et="windows-1252"
+Conte (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 1Deliver^d-To: recipient@email.test
+Received: `rom localhost$(localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@emal.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Da_e: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.te^t>
+Message-ID: <sandwich@email.test>
+Subject: Test mu0 Jul 2015ntent-Transfer-Encoding 15:29:52 GMT
+Datebird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------1033331920274611138663027062
+32"53
+-------------103333192027461113866302706ransfer-Encoding: 7bit
+
+Test
+
+--------------10333319202746111386630270623523
+Content-Type: ^ext/html; charset="windows-1252"
+Content-Transfer-Enco_ing: 7bit
+
+<html>
+ Te23523
+Content-Type: text/plain; charset="windows-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+--------------t-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------10333319202746111386630210333319202746111386630270623523
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--------------1033331920274611138663st
+</html>
+
+------;
+	b--------1033331970623523"
+
+--------------10333319202746111386630270623523 <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-lain; charset="windo7s-1252"; format=flowed
+Cont <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: 2037461113866302702706235062352323-oundary="------------10333319202746111386630270623523"
+
+--------------103333192027461113866302706ransfer-TestEnco mult

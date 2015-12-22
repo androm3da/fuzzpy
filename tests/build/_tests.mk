@@ -39,8 +39,10 @@ TEST_EXECS:= \
     testbz2 \
     testpy \
     testsqlite_query \
-		testxdr \
-		testurlparse \
+    testxdr \
+    testurlparse \
+    testint \
+    testemail \
 		testdecimal \
     $()
 
@@ -63,13 +65,14 @@ testxdr: testxdr.o $(EXEC_OBJS)
 testurlparse: testurlparse.o $(EXEC_OBJS)
 testdecimal: testdecimal.o $(EXEC_OBJS)
 testxml: testxml.o $(EXEC_OBJS)
+testint: testint.o $(EXEC_OBJS)
+testemail: testemail.o $(EXEC_OBJS)
 
-singleurlparse: sample.o testurlparse.o
 
 #vpath %.py $(foreach t, $(TEST_EXECS), ../$(t):)
 vpath %.py ../testplist/:../testjson:../testbz2/:../testxml/:../testdbm/: \
 					 ../testpy/:../testsqlite_query/:../testxdr/:../testurlparse/: \
-					 ../testdecimal/
+					 ../testint/:../testemail/:../testdecimal/
 
 
 

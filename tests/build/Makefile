@@ -5,7 +5,7 @@ all: testbin singleurlparse
 
 include ./_tests.mk
 
-SANCOV=-fsanitize-coverage=bb,indirect-calls,8bit-counters
+SANCOV=-fsanitize-coverage=edge,indirect-calls
 SAN=-fsanitize=address
 SAN_FLAGS=$(SAN) $(SANCOV)
 
@@ -31,11 +31,21 @@ define get_bin_name
 endef
 
 OBJCOPY=objcopy
+OUTPUT_TARGET:=$(shell objcopy -i 2>&1 |grep 'supported targets:' | cut -f 4 -d ' ')
+ifeq ($(shell arch),armv7l)
+  BINARCH:=arm7
+else ifeq ($(shell arch),i686)
+  BINARCH:=i386
+else ifeq ($(shell arch),x86_64)
+  BINARCH:=i386
+else
+  BINARCH:=UNDEFINED
+endif
 
 %.o: %.py
 	$(OBJCOPY) --input-target binary \
-		       --output-target elf64-x86-64 \
-		       --binary-architecture i386 \
+		       --output-target $(OUTPUT_TARGET) \
+		       --binary-architecture $(BINARCH) \
 			   $< tmp.o
 	$(OBJCOPY) --redefine-sym $(call get_bin_name, $<)_end=_binary_src_py_end \
 			   --redefine-sym $(call get_bin_name, $<)_start=_binary_src_py_start \

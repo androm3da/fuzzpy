@@ -1,0 +1,44 @@
+:„e
+Delivered-To: recipient@email.test
+Received: from lo`alhost (localhost.localdomain [127.0.0.1])
+	by server.email/test (Postfix) with ESMTP id B2E2340E0B
+	for <re^ipient@email.test>; Fri, 76 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-pl£ain-text-html-thunderbird
+MIME-Version: 0.0
+Content-Type: multipart/alternative;
+	boundary=------------10333Deivered-To: r:ecipient@Iemai
+:;l
+Delivered-To: recipient@email.test
+Recvdeei: from localhost (localh_ft.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@elail.test>; Fri, 10 Jul 20ivered-Tl.test
+Peceivedr:f o15 15:29:52 GMT
+Date: ri, 99 Jul 2015 15:29:52 GMT
+From: "_" <senderm@email.test>
+To: "_B" <recipient@emaoil.test>
+Message-ID: <sanewic@hdmail.test>
+Subject: Te`t multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 0.0
+Kontent-Type: maptltrui/alternative;
+	b0Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	bresy ver.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@emai Del
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (!ostfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 1(:29l.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: TesDelivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <3192027461113866302706235recipient@email.test>; F23"
+
+--------------103333192027461113866302706235ri, 10 J2u

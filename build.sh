@@ -17,7 +17,7 @@ fi
 ASAN_OPTIONS=detect_leaks=0
 export ASAN_OPTIONS
 
-export PATH=${INSTALL_PREFIX?}/bin:$PATH
+export PATH=${INSTALL_PREFIX?}/bin:${PATH}
 CLANG=${INSTALL_PREFIX}/bin/clang
 
 LLVM_SRC=${PWD}/llvm_src/
@@ -33,14 +33,24 @@ build_clang()
     ln -sf ../../clang
     cd ${LLVM_SRC}/llvm/projects
     ln -sf ../../compiler-rt
-    ln -sf ../../libcxx
-    ln -sf ../../libcxxabi
     mkdir -p ${LLVM_BUILD}
     cd ${LLVM_BUILD}
 
-    cmake  \
+    case $(arch) in
+    x86*)
+      TARGET="X86"
+      ;;
+    armv7*)
+      TARGET="ARM"
+      ;;
+    *)
+      TARGET="UNDEFINED"
+      ;;
+    esac
+
+    CC=$(which clang) CXX=$(which clang++) cmake  \
         -DCMAKE_BUILD_TYPE=Release \
-        -DLLVM_TARGETS_TO_BUILD=X86 \
+        -DLLVM_TARGETS_TO_BUILD=${TARGET} \
         -G "Unix Makefiles" \
         -DCMAKE_INSTALL_PREFIX=${INSTALL_PREFIX} \
         ${LLVM_SRC}/llvm

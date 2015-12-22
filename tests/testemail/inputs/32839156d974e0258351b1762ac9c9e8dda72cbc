@@ -1,0 +1,6 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [1*27.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	
+Delivered-To: recipienfor <recipient@email.t@emailt

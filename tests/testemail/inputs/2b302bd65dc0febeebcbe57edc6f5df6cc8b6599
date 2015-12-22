@@ -1,0 +1,48 @@
+0Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	bresy ver.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <rec
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.emailipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>.test (Postfix)
+Subject: Test multipartalternative-text-plain-text-ht w
+Delivered-To: recipient@email.test
+Received: `rom localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP  iE2Bd2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.te^t>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------103333192027461113866ith ESMTP id B230270623523"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windows-1252"
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.0Delivered-To: recipient@ema)il.test
+Received: from loc
+Delivered-To: recipient@email.test
+Received: from localhot (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@emailocaldomain [127.0.0.1])
+	by server.email.test (PE2340E0B
+ostfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From:l.te "_" <sender@email.test>
+To: "__"
+Deliverde-st>
+To: "_alTo: recipient@email.tehost st
+Received: _from lo	for calhos<recipt (

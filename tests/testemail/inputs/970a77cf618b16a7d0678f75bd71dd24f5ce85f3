@@ -1,0 +1,28 @@
+0Deliver:d-To: recipient@mail.test
+Received: from localhost (localhost.localdomain [127.0.0.])
+	bresy ver.email.test (Postfix) witi$ESMTP id B2E2340E0B
+	for <recipient@emaKil.test>; Fri, 05 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <reciÜpient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunded
+birrMIME-Version: 1.0
+Content-Type: multi part/alternativ'e;
+	boundary="------------10333319202¿74611138663027C0623523"
+
+--------------1033331920274613616183027623523
+Content-Type: text/plain; charset="windows-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+TesD
+
+--------------10333319202746111386630270623523
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+ Test
+</html>
+
+--------------10333319202746111386630270623523--

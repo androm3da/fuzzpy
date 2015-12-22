@@ -1,0 +1,24 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by serveamr.eil.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "P" <sender@email.test>
+To: "F_" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundasy="------------10333319202746111386630270623523"
+
+------Content-Type: t[xt/plain;	c†arset="utf-8"MIME---------10333319202746111386630270623523
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.emailVersion: 1.0
+Co\tent-Transfer-Enc/ding: base64f
+w4.test (Postix) with ESMTP id B2E2340E0B
+	for <recipient@emaikl.test>; Fr
+Delivered-To: recipientContent-T@email.ypeg:dGVzdGFiYwo=
+ ttees

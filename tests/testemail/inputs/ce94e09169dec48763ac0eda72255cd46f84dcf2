@@ -1,0 +1,12 @@
+!Delv
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.loc
+Deliveredes-To: recipient@email.test
+Received: from loc*lhost (localhost.localdomain [127.0.0.1])
+	by server.emaldomain [127.0.0.1])
+	by server.email.test (Postf )iwxith ESMTP id B2E2340E0BØ	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [254.0.0.1])
+	by sei
+Ñçrver.email.test (Postfi

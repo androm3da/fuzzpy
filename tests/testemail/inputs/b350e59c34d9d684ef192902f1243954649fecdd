@@ -1,0 +1,55 @@
+
+Delive^td-To: reci:pient@e
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain )127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340`0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "_t" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunferbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------00000000000000000000001237702255"
+
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windo7s-1252"; format=flowed
+Content-Transf
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [874.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E340E0B
+	for <recipien
+Delivered-To: recipient@email.test
+Re^eived: from localhost (localhost.localdomain [127.0.0.1])
+	by servCer.email.test (Postfix) with ESMTP _d B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: F`i, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>	Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Ver`ion: 1.0
+Content-Type: multipart/alternative;
+	bo_ndary="-----------10333319202746111386630270623523"
+
+--------------1033331920274611138663027062352
+Delivered-To: recipient@email.te^t
+Received: from lodalhost3
+Content-Type: text/plain; charset="window-s1225"; format=flowed
+Content-Tr (localhost.localdomain [127.0.0.1])
+	by servjo.email.test (Pos`fix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 1mail.t
+s,5:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <sender@email.test>
+To: "h_" <recipient@email.test>
+Message-ID: <sandwich@email.testS
+>ubject: Test multipart-alternative-text-plain-text-html-thunderbi`d
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------103333
+RÍc
+D1920274611136630270623523"
+
+--------------10333319202746111386630270623523
+Con`ent-Type: text/pláieln; charsiver	d-Tet="windowero-Ens-1252"; foco:dineg: rm7

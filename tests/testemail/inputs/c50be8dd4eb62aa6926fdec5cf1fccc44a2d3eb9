@@ -1,0 +1,29 @@
+uDelivered-To: reci:p\ent@email.tes]
+Íc
+DelivuDelivered-To: reci:pient@email.tes]oÍc
+Delivered-To: recipient@email.test
+Received: from localhost &localhost.localdoman [127.0.0.1])
+	by server.email.test (Pfitfix) with ESMTP id B0E2340E0B		for <secipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+Fom: "_" <sender@email.test>
+To: "__" <recipient@email-test>g
+sMaese-ÅID: <sandwich@email.test>
+Subject: Test multipart-alternative-tnDeliverd-To:ext-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alteqnative;
+	boundary="------------00000000000000000000000237883569"	
+--------------10333319202746111386630270623523
+Content-Type: text/plain; charset="windo7s-1252"; format=flowed
+Conten;t-Transfer-Encoding: 7bit
+
+Te^t
+
+--------------10333192027461113866e30270623523
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Enc:iodn tib
+<
+h7tml>
+ Test
+</html>
+ered-To:
+e--------------10333319202746111386630270623523--

@@ -1,0 +1,46 @@
+
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: 
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by' server.email.test (Postfix) with _SMTP id B2E2340E0B
+	for <recipient@email.test>; Fpi, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "_" <^ender@email.test>
+To: "__" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alternatiVe-text-plain-text-html-thunderbird
+MIME
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+"_" <sender@email.test>
+To: "F_" <recipient@email.test>
+Message-ID: <sandwich@email.test>
+Subject: Test multipart-alntreative	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 99 Jul 2015 15:29:52 GMT
+From: "Y" <sender@email.test>
+To: "__" <recipent@email.test>
+Message-ID: <sandwich@email-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundasy="------------10333319202746111386630270623523"
+
+--------------10333319202746111386630270623523
+
+Delivered-To; recipient@email.test
+Received: from localhost (localhost.localdomain [.test>
+Subject: Test multipqrt-alternatvie-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alte_native;
+
+Delivered-To: recipient@email/testReceived: from localhost (localhost.loc
+Delivered-To: r127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B2E2340E0B
+	for <rececipient@emaiipient@email.test>; Fr
+Delivered-To: recipientl.tesContent-T@t
+Re	mail.ypeb: ttees

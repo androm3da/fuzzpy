@@ -7,7 +7,8 @@ INSTALL_PREFIX=${THIS_DIR}/fuzzpy_install/
 
 # for cpython and our fuzzing exec:
 SANITIZE_OPTS="-fsanitize=address"
-SANITIZE_COV_OPTS="-fsanitize-coverage=bb,indirect-calls,8bit-counters"
+SANITIZE_COV_OPTS="-fsanitize-coverage=edge,indirect-calls" 
+
 DEBUG_OPTS="-g -fno-omit-frame-pointer"
 
 PROCS=$(getconf _NPROCESSORS_ONLN)
