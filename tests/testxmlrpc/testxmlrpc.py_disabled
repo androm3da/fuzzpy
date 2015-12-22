@@ -1,0 +1,7 @@
+
+# DISABLED: xmlrpc and underlying expat vulnerabilities are
+#   disclaimed by the CPython docs
+
+import xmlrpc as xmlrpclib
+text = b'@'
+xmlrpclib.loads(text)
