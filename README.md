@@ -33,8 +33,10 @@ You may run one of the existing test cases like so:
 It's unfortunately extremely slow relative to other typical `libFuzzer` cases.
 But, hey, CPython is not like most of those other cases.  :)
 
-Hopefully you should continue to see entries like these below:
+If you peek at the `fuzz-*.log` files, hopefully you should continue to see entries like these below:
 
+    $ tail fuzz-0.log
+    ...
     NEW0: 32244 L 2
     NEW0: 32244 L 2
 
@@ -43,7 +45,7 @@ untested code paths.
 
 Output will go into two places:
 
-    ./tests/<testcase>/inputs/ # distinct test cases
+    ./tests/<testcase>/results/ # distinct test cases
     ./cov/ # coverage record
 
 If you encounter a crashing input, it should get recorded as
@@ -52,7 +54,7 @@ any collision while running independent tests in parallel.
 
 ### New tests
 
-Come up with a CPython module that's interesting (typically ones with a C
+Come up with a module that's interesting (for CPython, typically ones with a C
   implementation in `cpython/Modules/`).  Write a brief test case that operates
   on a `bytesliteral` specified by `b'@'`.  For example:
 
@@ -68,7 +70,10 @@ Come up with a CPython module that's interesting (typically ones with a C
     sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
     mollit anim id est laborum.'''
 
-    pat.search(content)
+    try:
+        pat.search(content)
+    except EnvironmentError:
+        pass
 
 Let's put this one in `tests/testrepat/testrepat.py`.  Also, it's important
 to note that your test should not preserve any state from run to run.  Could
@@ -76,10 +81,12 @@ the library under test cache the `data` input value?  If so, you should try
 to bar that behavior or find a way to purge it in order to minimize its
 interference on subsequent iterations.
 
+Tests should catch and handle any exceptions that should result from invalid input data.  If your test throws an exception, it will end up halting the fuzzer.  If you only care about interpreter crashes, you can catch `Exception` in your test case.  Note that this may mask some design errors like `NameError` and some cases of `TypeError`.
+
 Unfortunately for now, defining tests requires a bit of repetition.  We'll
 work on some makefile magic that can abstract out some of those details
 to simplify making new test cases.  But as it stands now, you've got to add
-your case to `tests/build/_tests.mk`: add it to `TEST_EXECS`, create a `testrepat` binary and make sure it's in the `vpath %.py`.
+your case to `tests/build/_tests.mk`: add it to `TEST_EXECS`, create a `testrepat` binary rule and make sure it's in the `vpath %.py`.
 
 e.g.
 
