@@ -2,6 +2,11 @@
 import plistlib
 from xml.parsers.expat import ExpatError
 
+try:
+    from plistlib import InvalidFileException
+except ImportError:
+    class InvalidFileException(Exception): pass
+
 text = b'@'
 
 try:
@@ -13,7 +18,9 @@ except UnicodeDecodeError:
 	pass # TODO: this is probably not an effective test case
 except ExpatError:
 	pass
-except plistlib.InvalidFileException:
+except InvalidFileException:
 	pass
 except ValueError:
+	pass
+except AttributeError:
 	pass
