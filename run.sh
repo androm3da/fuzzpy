@@ -40,6 +40,7 @@ if [[ ${SANITY_CHECK} -ne 0 ]]; then
 fi
 
 mkdir -p ${OUTPUTS}
+mkdir -p ${OLD_TESTS}
 
 ${testbin} -runs=${ITERS-1} \
       -jobs=${JOBS} \
