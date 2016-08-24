@@ -9,7 +9,7 @@ SANCOV=-fsanitize-coverage=edge,indirect-calls
 SAN=-fsanitize=address
 SAN_FLAGS=$(SAN) $(SANCOV)
 
-COMPILE_FLAGS+=-g -fno-omit-frame-pointer -std=c++11
+COMPILE_FLAGS+=-g -fno-omit-frame-pointer -O2 -std=c++11
 
 PKG_CONFIG_PATH=$(INSTALL_PREFIX)/lib/pkgconfig
 

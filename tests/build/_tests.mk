@@ -2,29 +2,21 @@
 ###################
 # libFuzzer
 ###################
-VPATH+=$(LLVM_SRC)/llvm/lib/Fuzzer/
-FUZZ_OBJS= \
-    FuzzerCrossOver.o \
-    FuzzerDriver.o \
-    FuzzerInterface.o \
-    FuzzerIO.o \
-    FuzzerMain.o \
-    FuzzerMutate.o \
-    FuzzerSanitizerOptions.o \
-    FuzzerSHA1.o \
-    FuzzerTraceState.o \
-    FuzzerUtil.o \
-    FuzzerLoop.o \
-    $()
+FUZZ_SRC_DIR=$(LLVM_SRC)/llvm/lib/Fuzzer/
+VPATH+=$(FUZZ_SRC_DIR)
+FUZZ_LIB=libFuzzer.a
 
 EXEC_OBJS+= \
-    $(FUZZ_OBJS)
+    $(FUZZ_LIB) \
     $()
 
 ###################
 # wrapper code:
 ###################
 COMPILE_FLAGS+=-I../../wrapper/
+LIBFUZZ_LDLIBS=-stdlib=libc++ -lutil -lc++ -lc++abi
+LIBFUZZ_FLAGS=-c -g -O2 -std=c++11 -stdlib=libc++
+
 VPATH+=../../wrapper
 EXEC_OBJS+= \
     pywrap.o \
@@ -42,7 +34,7 @@ TEST_EXECS:= \
     testurlparse \
     testint \
     testemail \
-		testdecimal \
+    testdecimal \
     $()
 
 # TODO: testdbm temporarily disabled because it does exit(1) when it gets scared
@@ -62,6 +54,10 @@ testdecimal: testdecimal.o $(EXEC_OBJS)
 testint: testint.o $(EXEC_OBJS)
 testemail: testemail.o $(EXEC_OBJS)
 
+FUZZ_SRCS=$(wildcard $(FUZZ_SRC_DIR)/Fuzzer*.cpp)
+$(FUZZ_LIB):
+	clang++ $(LIBFUZZ_FLAGS) $(FUZZ_SRCS)
+	ar ruv $@ Fuzzer*.o
 
 #vpath %.py $(foreach t, $(TEST_EXECS), ../$(t):)
 vpath %.py ../testplist/:../testjson:../testbz2/: \
