@@ -13,7 +13,7 @@ focusing on CPython.
 ### Building
 
 First, make sure you've cloned this repository with its subrepositories (e.g.
-  `git clone --recursive https://bitbucket.org/ebadf/fuzzpy`).  
+  `git clone --recursive https://github.com/androm3da/fuzzpy/`).  
 Then build the dependencies and test cases using the script provided.  
 
     sudo apt-get build-dep python3
